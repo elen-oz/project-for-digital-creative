@@ -34,7 +34,7 @@ body {
   );
 
   /* ---> if you want to keep background color fixed use this, otherwise remove it and background will be scrolling */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .background-vision {
@@ -47,7 +47,7 @@ body {
   );
 
   /* ---> if you want to keep background color fixed use this, otherwise remove it and background will be scrolling */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 /* -----picture with mobile data: time / network / wifi /battery -------  */
@@ -109,9 +109,8 @@ body {
 
 /* --------------- BUTTONS START ---------------- */
 
-/* ------ BUTTONS for VISION Page ---------------- */
-.buttons {
-  width: 200px;
+.buttons-container {
+  width: 220px;
   margin-bottom: 20px;
 
   display: flex;
@@ -122,10 +121,11 @@ body {
   border-radius: 30px;
 }
 
+/* -- BUTTONS for VISION Page --- */
 .section-button-active {
   background-color: #e0fe83;
 
-  padding: 10px 25px;
+  padding: 10px 35px;
   font-size: 24px;
 
   border: 1px solid black;
@@ -145,18 +145,7 @@ body {
   border-radius: 30px;
 }
 
-/* ------ BUTTONS for UPLOADS Page ---------------- */
-.uploads-buttons {
-  width: 200px;
-  margin-bottom: 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  border: 1px solid black;
-  border-radius: 30px;
-}
+/* -- BUTTONS for UPLOADS Page --- */
 
 .uploads-section-button-active {
   background-color: #e0fe83;

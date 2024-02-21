@@ -24,43 +24,45 @@
   </head>
 
   <body>
-    
-      <div class="background">
-      <!-- <div> -->
-        <img src="images/iphonebar.png" alt="Status bar for iPhone" />
-      <!-- </div> -->
+    <div class="wrapper background-uploads">
+      <img
+        src="images/iphonebar.png"
+        alt="Status bar for iPhone"
+        class="mobile-status-bar"
+      />
 
-      <nav>
-        <div class="nav">
-          <h3>@ilovejaayyne</h3>
+      <nav class="header">
+        <div class="header-item"></div>
+        <h3 class="username">@ilovejaayyne</h3>
+        <div class="nav_list">
           <img src="images/bookmark button.png" alt="Bookmark" />
           <img src="images/settings button.png" alt="Settings" />
         </div>
       </nav>
 
       <div class="container">
-      <!-- <div> -->
-        <img  class="profile-picture" src="images/profilepicture.png" alt="Profile Picture" />
-      <!-- </div> -->
+        <img src="images/profilepicture.png" alt="Profile Picture" />
 
-      <!-- <div> -->
-        <h1>Jayne Tan</h1>
-        <h4>14 followers · 45 following</h4>
-      <!-- </div> -->
+        <h1 class="profile_name">Jayne Tan</h1>
+        <h4 class="followers">14 followers · 45 following</h4>
 
-      <div class="buttons">
-        <button><a href="profile-visionboards.html"> Visionboards </a></button>
-        <button><a href="profile-uploads.html"> Uploads </a></button>
-      </div>
-      <!-- <pre></pre> -->
+        <div class="buttons-container">
+          <a href="profile-visionboards.html" class="uploads-section-button">
+            Vision
+          </a>
+          <a href="profile-uploads.html" class="uploads-section-button-active">
+            Uploads
+          </a>
+        </div>
 
-      <!-- <div> -->
-        <img src="images/uploads.png" alt="Uploaded pictures" />
-      <!-- </div> -->
+        <img
+          class="content-image"
+          src="images/uploads.png"
+          alt="Uploaded pictures"
+        />
 
-      <!-- <div> -->
         <nav class="menu">
-          <ul class="navbar-list">
+          <ul class="menu-list">
             <li>
               <a href="#"><img src="images/house button.png" alt="Home" /></a>
             </li>
@@ -76,14 +78,7 @@
             </li>
           </ul>
         </nav>
-      <!-- </div> -->
-
-      <!-- <img
-      src="images/uploadgradient.png"
-      alt="Gradient background for the vision board"
-    /> -->
+      </div>
     </div>
-  </div>
-</div>
   </body>
 </html>
