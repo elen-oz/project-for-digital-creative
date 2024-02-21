@@ -12,19 +12,40 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
+body {
+}
+
+.wrapper-uploads {
   position: relative;
+  width: 390px;
+  height: 100%;
+  display: block;
+  z-index: -10;
+
   background: rgb(255, 105, 91);
   background: linear-gradient(
     180deg,
     rgba(255, 105, 91, 1) 0%,
-    rgba(255, 160, 195, 1) 38%,
-    rgba(255, 255, 255, 1) 76%
+    rgba(255, 160, 195, 1) 18%,
+    rgba(255, 255, 255, 1) 34%,
+    rgba(255, 255, 255, 1) 70%
   );
+}
+
+.wrapper-vision {
+  position: relative;
   width: 390px;
-  height: 844px;
+  height: 100%;
   display: block;
   z-index: -10;
+
+  background: rgb(255, 105, 91);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 105, 91, 1) 0%,
+    rgba(255, 160, 195, 1) 32%,
+    rgba(255, 255, 255, 1) 70%
+  );
 }
 
 /* -----picture with mobile data: time / network / wifi /battery -------  */
@@ -84,6 +105,9 @@ a {
   margin-bottom: 2rem;
 }
 
+/* --------------- BUTTONS START ---------------- */
+
+/* ------ BUTTONS for VISION Page ---------------- */
 .buttons {
   width: 200px;
   margin-bottom: 20px;
@@ -100,7 +124,7 @@ a {
   background-color: #e0fe83;
 
   padding: 10px 25px;
-  font-size: 20px;
+  font-size: 24px;
 
   border: 1px solid black;
   border-radius: 30px;
@@ -118,6 +142,44 @@ a {
   font-weight: 500;
   border-radius: 30px;
 }
+
+/* ------ BUTTONS for UPLOADS Page ---------------- */
+.uploads-buttons {
+  width: 200px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.uploads-section-button-active {
+  background-color: #e0fe83;
+
+  padding: 10px 25px;
+  font-size: 24px;
+
+  border: 1px solid black;
+  border-radius: 30px;
+
+  font-family: 'Pinyon Script', cursive;
+}
+
+.uploads-section-button {
+  height: 30px;
+  width: 150x;
+
+  padding: 6px 30px;
+
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+/* --------------- BUTTONS END ---------------- */
 
 .visionboards-img {
   padding-bottom: 90px;
